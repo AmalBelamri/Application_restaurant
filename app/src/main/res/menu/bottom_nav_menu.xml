@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item android:id="@+id/addFragment"
+        android:title="Search"
+        android:icon="@drawable/ic_add" />
+    <item android:id="@+id/favoritesFragment"
+        android:title="Search"
+        android:icon="@drawable/ic_favorite" />
+    <item
+        android:id="@+id/cardFragment"
+        android:title="Search"
+        android:icon="@drawable/shopping_cart" />
+    <item
+        android:id="@+id/app_bar_recharche"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="seve"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+<!--    <item android:id="@+id/miSearch"-->
+<!--        android:title="Search"-->
+<!--        android:icon="@drawable/ic_search" />-->
+
+
+</menu>
